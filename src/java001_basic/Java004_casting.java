@@ -1,4 +1,4 @@
-package java1005_basic;
+package java001_basic;
 
 /*
  * Ctrl + SpaceBar  : 자동완성
@@ -29,7 +29,7 @@ public class Java004_casting {
 		long gNum = 6;  // 묵시적 형변환 : int => long
 		System.out.println(gNum);
 		
-		float tNum =(float)2.5;  // 명시적 형변환 : double => float
+		float tNum =(float)2.5;  // 명시적 형변환(소괄호) : double => float
 		System.out.println(tNum);		
  		
 		
