@@ -11,6 +11,10 @@ public class Prob_03 {
 	public static void main(String[] args) {
        int num[]=new int[]{60,95,88};
        //여기를 구현하시오.
+       
+       for(int i=0; i<num.length; i++) {
+    	   System.out.println(num[i]);
+       }
       
        
 	}//end main()
