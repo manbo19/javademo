@@ -1,4 +1,4 @@
-package java003_statments;
+package java003_statements;
 
 /*
  * 1	2	3	4

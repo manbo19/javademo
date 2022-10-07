@@ -1,4 +1,4 @@
-package java003_statments;
+package java003_statements;
 
 /*
  *  for(초기식; 조건식; 증감식){

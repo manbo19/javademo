@@ -1,4 +1,4 @@
-package java003_statments;
+package java003_statements;
 /*
  * 1~10까지 짝수, 홀수 누적을 계산하는 프로그램
  * 

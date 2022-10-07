@@ -1,4 +1,4 @@
-package java003_statments;
+package java003_statements;
 /*
  * 3의 배수를 제외한 숫자만 출력하라
  * 1
