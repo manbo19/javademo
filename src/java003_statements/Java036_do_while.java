@@ -8,10 +8,10 @@ package java003_statements;
 public class Java036_do_while {
 
 	public static void main(String[] args) {
-		char chk ='y';
+		char chk ='n';
 		do {
 			System.out.println("주문하시겠습니까? (y/n)");
-		} while(chk=='n');
+		} while(chk=='y');
 
 	}//end main()
 

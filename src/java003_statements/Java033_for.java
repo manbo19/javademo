@@ -17,7 +17,9 @@ public class Java033_for {
 				//	break go;
 					break;
 				}
-				System.out.printf("i=%d\n", i);
+				System.out.printf("k=%d i=%d\n",k, i);
+				
+				
 			}
 			System.out.println("kkk");
 		}
