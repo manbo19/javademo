@@ -27,7 +27,7 @@ public class Java009_operators {
 		//상수 : 한 번만 기억할 수 있는 메모리 공간 
 		final int NUM = 4;
 		//상수는 증감연산자를 사용할 수 없다.
-		//NUM++
+		//NUM++;
 		
 	}
 

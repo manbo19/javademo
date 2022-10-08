@@ -9,7 +9,7 @@ public class Java008_operators {
 		System.out.println(a + b); // 산술연산자
 		System.out.println(a + "는(은) 삼입니다."); // 문자열 연결
 		System.out.println("a=" + a); // 문자열 연결
-		System.out.println("결과=" + (a + b)); // 결과 = 7 -> (a+b)가 먼저 처리됨
+		System.out.println("결과=" + (a + b)); // 결과 = 7 
 
 	}
 

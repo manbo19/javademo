@@ -12,7 +12,7 @@ package java002_statements;
 public class Java018_if {
 
 	public static void main(String[] args) {
-		boolean member = false                                      ; //회원(false) or 비회원(true)
+		boolean member = false; //회원(false) or 비회원(true)
 		String grade = "일반"; //회원등급(VIP, 일반)
 		
 		if(!member) {
