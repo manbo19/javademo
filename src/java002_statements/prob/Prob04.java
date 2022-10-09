@@ -45,7 +45,15 @@ class Prob04 {
 		avg = tot / 3.0;
 
 		// 여기에 구현하시오.
+		if (avg >= 60) {
+			if (!(kor >= 40 && eng >= 40 && mat >= 40)) {
+				System.out.println("과락으로 불합격");
+			} else {
+				System.out.println("합격");
+			}
+		} else {
+			System.out.println("불합격");
+		}
 
-		
 	}// end main()
 }// end class

@@ -28,8 +28,25 @@ public class Prob06 {
 		int money = 0; // 수령 월급
 
 		/////////// 여기에서 구현하세요. /////////
+		switch (grade) {
+		case "과장":
+			money = 250;
+			break;
+		case "대리":
+			money = 200;
+			break;
+		case "사원":
+			money = 150;
+			break;
+		}
 
-		
+		if (overtime >= 20) {
+			money = money + 20;
+		} else if (overtime >= 10) {
+			money = money + 10;
+		} else {
+			money = money + 0;
+		}
 
 		//////////////////////////////////////
 
