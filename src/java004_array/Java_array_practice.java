@@ -1,7 +1,5 @@
 package java004_array;
 
-import java.util.Arrays;
-
 public class Java_array_practice {
 
 	public static void main(String[] args) {
