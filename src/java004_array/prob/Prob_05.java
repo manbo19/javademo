@@ -32,27 +32,26 @@ public class Prob_05 {
 		int[] answer = { 1, 2, 3, 4, 4, 3, 2, 1, 1, 2 };
 		int sum = 0;
 
-		System.out.println("[학생 제출 답안]");
+//		System.out.println("[학생 제출 답안]");
+//		for (int i = 0; i < name.length; i++) {
+//			System.out.printf(" %s ", name[i]);
+//			for (int j = 0; j < data[i].length; j++) {
+//				System.out.printf("%3d", data[i][j]);
+//			}
+//			System.out.printf("\n");
+//
+//		}
+//		System.out.println("[정답]");
 
 		for (int i = 0; i < name.length; i++) {
-			System.out.printf(" %s ", name[i]);
-			for (int j = 0; j < data[i].length; j++) {
-				System.out.printf("%3d", data[i][j]);
-			}
-			System.out.printf("\n");
-
-		}
-		System.out.println("[정답]");
-
-		for (int n = 0; n < name.length; n++) {
-			System.out.printf(" %s 점수: ", name[n]);
-			for (int k = 0; k < 10; k++) {
-
-				if (answer[k] == data[n][k]) {
-					sum += 1;
-					System.out.printf("%d", sum);
+			sum = 0;
+			System.out.printf(" %s 점수: ", name[i]);
+			for (int j = 0; j < data.length; j++) {
+				if (answer[i] == data[i][j]) {
+					sum++;
 				}
 			}
+			System.out.printf("%d", sum);
 			System.out.printf("\n");
 		}
 
