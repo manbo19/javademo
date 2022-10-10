@@ -38,10 +38,22 @@ public class Prob_05 {
 			System.out.printf(" %s ", name[i]);
 			for (int j = 0; j < data[i].length; j++) {
 				System.out.printf("%3d", data[i][j]);
-			
 			}
 			System.out.printf("\n");
 
+		}
+		System.out.println("[정답]");
+
+		for (int n = 0; n < name.length; n++) {
+			System.out.printf(" %s 점수: ", name[n]);
+			for (int k = 0; k < 10; k++) {
+
+				if (answer[k] == data[n][k]) {
+					sum += 1;
+					System.out.printf("%d", sum);
+				}
+			}
+			System.out.printf("\n");
 		}
 
 	}// end main()
