@@ -1,4 +1,5 @@
 package java003_statements.prob;
+
 /*
  * 1. 이중 for문을 이용해서 1부터 20사이의 정수에서 2,3,4,5의 배수를 수행하는 
  *    프로그램을 구현하시오.
@@ -9,14 +10,21 @@ package java003_statements.prob;
  *    5의 배수 :    5  10  15  20
  *     
  */
-
-
-
-
 public class Prob_05 {
 
-	public static void main(String[] args) {		
-		
-	}//end main()
+	public static void main(String[] args) {
 
-}//end class
+		for (int j = 2; j <= 5; j++) {
+			System.out.printf("%d의 배수 :", j);
+			for (int i = 1; i <= 20; i++) {
+				if (i % j != 0) {
+					continue;
+				}
+				System.out.printf("%4d", i);
+			}
+			System.out.println();
+		}
+
+	}// end main()
+
+}// end class
