@@ -9,14 +9,21 @@ package java004_array.prob;
 public class Prob_03 {
 
 	public static void main(String[] args) {
-       int num[]=new int[]{60,95,88};
-       //여기를 구현하시오.
-       
-       for(int i=0; i<num.length; i++) {
-    	   System.out.println(num[i]);
-       }
-      
-       
-	}//end main()
+		int num[] = new int[] { 60, 95, 88 };
 
-}//end class
+		// 여기를 구현하시오.
+
+		int sum = 0;
+		int avg = 0;
+		for (int i = 0; i < num.length; i++) {
+			sum = sum + num[i];
+			avg = sum / num.length;
+			
+		}
+		System.out.printf("합계:%2d\n", sum);
+		System.out.printf("평균:%2d", avg);
+		
+
+	}
+
+}
