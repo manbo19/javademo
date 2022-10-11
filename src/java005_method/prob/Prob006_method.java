@@ -11,6 +11,7 @@ public class Prob006_method {
 
 	private static void primeNumber(int num) {
 		// 구현하세요.
+		
 
 	}// end primeNumber( )
 }//end class

@@ -30,8 +30,18 @@ public class Prob001_method {
 
 	public static int[] mergeArray(int[] array1, int[] array2) {
 		// 여기에서 구현하세요.
-
-		return null;
+		int len = array1.length + array2.length;
+		int [] merge = new int[len];
+		int position=0;
+		for(int arr:array1) {
+			merge[position]=arr;
+			position++;
+		}
+		for(int arr:array2) {
+			merge[position]=arr;
+			position++;
+		}
+		return merge;
 	}// end mergeArry()
 
 }// end class
