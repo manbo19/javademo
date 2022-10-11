@@ -7,7 +7,7 @@ public class Java054_method {
 		boolean result = isLeapYear(year);
 
 		if (result) {
-			System.out.printf("%d년도는 윤년힙니다.\n", year);
+			System.out.printf("%d년도는 윤년입니다.\n", year);
 		} else {
 			System.out.printf("%d년도는 평년입니다.\n", year);
 		}
