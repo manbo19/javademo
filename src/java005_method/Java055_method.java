@@ -11,9 +11,6 @@ public class Java055_method {
 		System.out.println(process(a, b, c));
 
 		// System.out.println(process2(a, b, c));
-		// The method println(boolean) in the
-		// type PrintStream is not applicable
-		// for the arguments (void)
 
 		System.out.println(plus(num));
 		System.out.println(plus(data));

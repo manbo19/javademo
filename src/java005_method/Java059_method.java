@@ -20,10 +20,6 @@ public class Java059_method {
 
 		System.out.printf("%d는(은) %s입니다.", data, process(data) ? "짝수" : "홀수");
 
-		// int a = 1;
-		// System.out.printf("%d %d %d\n", ++a, ++a, ++a);
-		// System.out.printf("%d %d %d\n", a++, a++, a++);
-
 	}// end main()
 
 	public static boolean process(int data) {

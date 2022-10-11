@@ -23,7 +23,7 @@ public class Java057_method {
 
 		System.out.printf("a=%d, b=%d\n", a, b); // a=10, b=20
 		callByValue(a, b);
-		System.out.printf("a=%d, b=%d\n", a, b); // c=20, d=10
+		System.out.printf("a=%d, b=%d\n", a, b); //a=10, b=20
 
 		int[] num = new int[] { 10, 20 };
 
@@ -36,7 +36,7 @@ public class Java057_method {
 		int temp = c;
 		c = d;
 		d = temp;
-		System.out.printf("c=%d, d=%d\n", c, d); // a=10, b=20
+		System.out.printf("c=%d, d=%d\n", c, d); // c=20, d=10
 
 	}// end callByValue()
 
