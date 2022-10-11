@@ -14,16 +14,17 @@ public class Prob005_method {
 	public static void result(int[] data) {
 		// 여기에 2 or5배수가 아닌 갯수와합계를 구하는 코드를 작성하세요.
 		int sum = 0;
+		int cnt = 0;
 		for (int i = 0; i < data.length; i++) {
 			if (data[i] % 2 != 0 && data[i] % 5 != 0) {
 				sum = sum + data[i];
-				
+				cnt++;
+
 			}
-		}//end result()
-		
-		//System.out.printf("2 or 5의 배수가 아닌 합계:%d\n",);
-		System.out.printf("2 or 5의 배수가 아닌 합계:%d\n",sum);
-		
+		} // end result()
+
+		System.out.printf("2 or 5의 배수가 아닌 개수:%d\n", cnt);
+		System.out.printf("2 or 5의 배수가 아닌 합계:%d\n", sum);
 
 	}// end result()
 
