@@ -1,3 +1,4 @@
+
 package java006_class.part04;
 
 public class Java068_class {

@@ -22,3 +22,4 @@ public class Java069_class {
 	}// end main()
 
 }// end class
+ 
