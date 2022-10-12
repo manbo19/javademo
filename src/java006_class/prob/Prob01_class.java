@@ -10,8 +10,9 @@ package java006_class.prob;
 public class Prob01_class {
 
 	public static void main(String[] args) {
-		//여기를 구현하세요.////////////////////	
+		Radius_prob01 rd = new Radius_prob01();
 
-	}//end main()
+		rd.display();
+	}// end main()
 
-}//end class
+}// end class
