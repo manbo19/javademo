@@ -6,7 +6,7 @@ package java006_class.part09;
  * 가수: ABBA
  * 앨범: Arrival
  * 작곡가: Benny Andersson, bjohn Ulvaeus
- * 연도: 1997
+ * 연도: 1977
  * 트랙: 2
  * 
  */
@@ -14,7 +14,7 @@ package java006_class.part09;
 public class Java073_class {
 
 	public static void main(String[] args) {
-		Song sg = new Song("Dancing Queen", "ABBA", "Arrival", new String[] { "Benny Andersson, bjohn Ulvaeus" }, 1997,
+		Song sg = new Song("Dancing Queen", "ABBA", "Arrival", new String[] { "Benny Andersson", "bjohn Ulvaeus" }, 1977,
 				2);
 		sg.show();
 
