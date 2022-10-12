@@ -13,6 +13,11 @@ public class Java069_class {
 		System.out.printf("var_char=%c\n", mv.var_char);
 		System.out.printf("var_string=%s\n", mv.var_string);
 		System.out.printf("var_arr=%s\n", mv.var_arr);
+		
+		//지역변수는 기본값을 제공하지 않는다.
+		//The local variable num may not have been initialized
+		//int num;
+		//System.out.printf("num:%d\n", num);
 
 	}// end main()
 
