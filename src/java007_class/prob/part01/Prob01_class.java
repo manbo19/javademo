@@ -1,7 +1,5 @@
 package java007_class.prob.part01;
 
-import java008_static_access.part03.MovieShop;
-
 /* 출력력과처럼 총합계까지 출력이 되도록 main()메소드에 
  * 로직을 추가하세요.
  * 
