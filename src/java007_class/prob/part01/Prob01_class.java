@@ -19,7 +19,7 @@ public class Prob01_class {
 		me[1] = new MovieShop("극비수사", 7500, 3);
 		me[2] = new MovieShop("소수의견", 7000, 2);
 		for(int i=0; i<me.length; i++) {
-			//System.out.printf("%s %d\n", name,countMoney);
+			System.out.printf("%s %d\n", me[i].name,me[i].price*me[i].person);
 		}
 
 		// 여기에 구현하세요/////////////////
