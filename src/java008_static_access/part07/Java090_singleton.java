@@ -1,7 +1,7 @@
 package java008_static_access.part07;
 
 /*
- * 싱글톤 패턴(singleton pattern)
+ * <싱글톤 패턴(singleton pattern)>
  * 1. 같은 형태의 객체를 생성할 때 사용한다.
  * 2. 하나의 객체만을 생성해서 참조하는 방법이다.
  * 3. 방법

@@ -2,8 +2,8 @@ package java008_static_access.part02;
 
 /*
  * class 클래스명{
- * 	멤버변수();
- *	static();
+ * 	멤버변수;
+ *	static{ };
  *	생성자();
  *	메서드();
  *}

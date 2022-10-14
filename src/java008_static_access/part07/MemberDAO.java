@@ -8,6 +8,7 @@ public class MemberDAO {
 
 	public static MemberDAO getInstance() {
 		return dao;
+		//return new MemberDAO();
 	}
 
 	public void display() {
