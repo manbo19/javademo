@@ -1,6 +1,9 @@
 package java009_inheritance.part010;
 
-public class Java100_inheritance {
+import java.lang.System;
+import java.lang.String;
+
+public class Java101_inheritance {
 	public static void main(String[] args) {
 		BasicTv btv = new BasicTv();
 		btv.isPowerOn = true;
