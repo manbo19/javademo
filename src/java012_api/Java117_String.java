@@ -28,7 +28,7 @@ public class Java117_String {
 		// 2인덱스부터 8미만까지 문자열 리턴
 		System.out.println("범위: " + str.substring(2, 8)); // REa,js
 
-		// 메모리에 저장된 문자열을 ","로 구분해서 문자열 배열로 리턴
+		// 메모리에 저장된 문자열을 ","로 구분해서 문자열 배열로 리턴 
 		String[] arr = str.split(",");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.printf("arr[%d]=%s\n", i, arr[i]);
