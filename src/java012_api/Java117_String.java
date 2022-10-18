@@ -39,6 +39,7 @@ public class Java117_String {
 		System.out.printf("%d+%d=%d\n", x, y, x + y);
 
 		// String <= int
+		// valueOf: Returns the string representation of the int argument. 
 		String s1 = String.valueOf(x);
 		String s2 = String.valueOf(y);
 		System.out.printf("%s+%s=%s\n", s1, s2, s1 + s2);
