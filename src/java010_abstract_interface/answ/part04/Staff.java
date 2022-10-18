@@ -1,4 +1,4 @@
-package ava010_abstract_interface.answ.part04;
+package java010_abstract_interface.answ.part04;
 public class Staff extends Person {
 
 	public Staff(String name, String jumin) {

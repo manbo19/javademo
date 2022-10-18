@@ -1,4 +1,4 @@
-package ava010_abstract_interface.answ.part02;
+package java010_abstract_interface.answ.part02;
 
 /*
  * MotorBicycle클래스가 아래와 같이 출력이 되도록 구현하세요.

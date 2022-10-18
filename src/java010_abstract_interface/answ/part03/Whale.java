@@ -1,4 +1,4 @@
-package ava010_abstract_interface.answ.part03;
+package java010_abstract_interface.answ.part03;
 
 public class Whale {
 	public void bear() {

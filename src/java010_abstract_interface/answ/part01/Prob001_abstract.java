@@ -1,4 +1,4 @@
-package ava010_abstract_interface.answ.part01;
+package java010_abstract_interface.answ.part01;
 
 /*MyPoint클래스를 상속받아 아래와 같이 출력이 되도록
  * MyColorPoint클래스를 구현하세요.

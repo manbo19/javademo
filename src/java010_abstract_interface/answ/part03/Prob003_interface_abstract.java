@@ -1,4 +1,4 @@
-package ava010_abstract_interface.answ.part03;
+package java010_abstract_interface.answ.part03;
 /*
  * Mammal인터페이스, Fish클래스를 상속받아
  * 아래와 같이 출력이 되도록  Whale클래스를 구현하세요.

@@ -1,4 +1,4 @@
-package ava010_abstract_interface.answ.part02;
+package java010_abstract_interface.answ.part02;
 
 public interface IBicycle {
 	 // 상수 선언

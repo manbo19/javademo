@@ -1,4 +1,4 @@
-package ava010_abstract_interface.answ.part04;
+package java010_abstract_interface.answ.part04;
 
 abstract public class Person {
 	String name; //이름

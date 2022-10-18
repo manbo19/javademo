@@ -1,4 +1,4 @@
-package ava010_abstract_interface.answ.part01;
+package java010_abstract_interface.answ.part01;
 
 public abstract class MyPoint {
 	int x;
