@@ -19,10 +19,14 @@ public class Java127_RegEx {
 
 	public static boolean process(String sn) {
 		// 여기를 구현하세요.
-		if (sn.matches("[0-9]{6}-[0-9]{7}")) {
-			return true;
-		}
-		return false;
+		
+		//return sn.matches("[0-9]{6}-[0-9]{7}");
+		return sn.matches("\\d{6}-\\d{7}");
+		
+//		if (sn.matches("[0-9]{6}-[0-9]{7}")) {
+//			return true;
+//		}
+//		return false;
 
 	}// end process()
 
