@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 //https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/regex/Pattern.html#sum
 //https://en.wikipedia.org/wiki/Regular_expression
 //https://www.nextree.co.kr/p4327/
-//https://regexper.com/
+//https://regexper.com/ => 정규표현식 테스트 사이트
 
 /*
  * 아이디를 입력할 때 영문자, 숫자 조합으로 합니다.
