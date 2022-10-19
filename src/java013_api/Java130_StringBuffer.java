@@ -40,6 +40,7 @@ public class Java130_StringBuffer {
 		System.out.println(se); // aerok
 
 		System.out.println(new StringBuffer(String.valueOf(arr)).reverse()); // aerok
+		//String.valueOf() -> 지정한 값을 문자열로 변환해 반환해줌
 
 		// StringBuffer => String => char[]
 		String st = se.toString();

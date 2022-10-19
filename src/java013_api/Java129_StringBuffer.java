@@ -9,7 +9,7 @@ package java013_api;
  * 
  * <StringBuffer의 특징>
  * 1. 문자열 값을 수정할 수 있는 mutable(가변)이다.
- * 2. 기본 16문자 크리고 지정된 버퍼를 이용하며, 크기를 증가시킬 수 있다.
+ * 2. 기본 16문자 크기고 지정된 버퍼를 이용하며, 크기를 증가시킬 수 있다.
  */
 public class Java129_StringBuffer {
 	public static void main(String[] args) {
@@ -27,6 +27,15 @@ public class Java129_StringBuffer {
 		System.out.println(sb == su); // true => 주소값이 같음
 		System.out.println(sb.equals(su)); // true
 		System.out.println(sb.toString()); // framework test
+		
+		/*
+		 * equals()
+		 * : 객체끼리 내용을 비교할 수 있도록 하는 메서드
+		 *   비교하고자 하는 대상의 내용 자체를 비교
+		 * ==
+		 * : 비교를 위한 연산자
+		 *   비교하고자 하는 대상의 주소값을 비교
+		 */
 
 	}// end main()
 }// end class
