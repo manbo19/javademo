@@ -16,7 +16,7 @@ public class Java148_System {
 		System.out.println(curr);
 
 		// HH: 24시간, hh: 12시간
-		String pattern = "yyyy-MM-dd hh:mm:ss a EEEE";
+		String pattern = "yyyy-MM-dd HH:mm:ss a EEEE";
 		SimpleDateFormat sdf = new SimpleDateFormat(pattern);
 
 		// long -> Long -> Object
