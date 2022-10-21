@@ -33,13 +33,13 @@ public class Java180_Vector {
 		for (Number ne : vt) {
 			if (ne instanceof Integer) {
 				Integer it = (Integer) ne;
-				System.out.println(it);
+				System.out.println(it);// 10
 			} else if (ne instanceof Double) {
 				Double de = (Double) ne;
-				System.out.println(de);
+				System.out.println(de);// 10.4
 			} else if (ne instanceof Float) {
 				Float ft = (Float) ne;
-				System.out.println(ft);
+				System.out.println(ft);// 4.8
 			}
 		}
 	}// end main()

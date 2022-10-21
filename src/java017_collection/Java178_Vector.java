@@ -17,6 +17,7 @@ public class Java178_Vector {
 		v.add(new String("java"));
 
 		// Object -> Integer : down-casting
+		// get():Returns the element at the specified position in this Vector.
 		Integer it1 = (Integer) v.get(0);
 		Integer it2 = (Integer) v.get(1);
 		Integer it3 = (Integer) v.get(2);
@@ -27,6 +28,7 @@ public class Java178_Vector {
 		System.out.println(it3.intValue());
 		System.out.println(it4.intValue());
 		System.out.println(sn.toString());
+		
 		try {
 			System.out.println(v.get(20));
 		} catch (ArrayIndexOutOfBoundsException ex) {
