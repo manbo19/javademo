@@ -17,9 +17,36 @@ public class UserList {
 	}
 
 	public void add(Object element) {
-		
+		if (sale.length == pointer) {
+			Object[] arr = new Object[sale.length * 2];
+			System.arraycopy(sale, 0, arr, 0, sale.length);
+			sale = arr;
+
+		}
 		sale[pointer++] = element;
 
+	}
+
+	public Object get(int index) {
+		if (index < pointer)
+			return sale[index];
+		else
+			throw new ArrayIndexOutOfBoundsException(index);
+
+	}
+
+	public int size() { // 요소 개수
+		return pointer;
+	}
+
+	public Object remove(int index) {
+		Object obj = sale[index];
+		for (int i = index; i < pointer; i++) {
+			sale[i] = sale[i + 1];
+		}
+
+		pointer--;
+		return obj;
 	}
 
 }
