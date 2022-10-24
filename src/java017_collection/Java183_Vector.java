@@ -26,7 +26,8 @@ public class Java183_Vector {
 		try (Scanner sc = new Scanner(new File(filename))) {
 			while (sc.hasNextLine()) { // kim:56/78/12 -> hong:46/100/97 -> park:96/56/88
 				String[] data = sc.nextLine().split("[:/]");
-				Sawon sn = new Sawon(data[0], Integer.parseInt(data[1]), Integer.parseInt(data[2]),
+				Sawon sn = new Sawon(data[0], Integer.parseInt(data[1]), 
+						Integer.parseInt(data[2]),
 						Integer.parseInt(data[3]));
 
 				vt.add(sn);

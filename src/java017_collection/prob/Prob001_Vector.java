@@ -1,4 +1,5 @@
 package java017_collection.prob;
+
 import java.io.File;
 import java.util.Scanner;
 import java.util.Vector;
@@ -28,24 +29,8 @@ public class Prob001_Vector {
 	private static Vector<Book> makeBookList() throws Exception {
 		// booklist.txt 파일의 데이터를 Vector에 저장한 후 리턴하는 프로그램을 구현하시오.
 	
-		
 		return null;
 
 	}// end makeBookList()
 
 }// end class
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
