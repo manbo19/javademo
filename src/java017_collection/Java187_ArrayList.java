@@ -5,7 +5,13 @@ import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.Vector;
 
-//Enumeration은 Vector와 Hashtable에서만 제공이 되는 인터페이스이다.
+/* 
+ * <Enumeration>
+ * Vector와 Hashtable에서만 제공이 되는 인터페이스이다.
+ * Iterator의 하위버전으로 데이터를 삭제하는 기능은 없다.
+ * 
+ * 
+ */
 public class Java187_ArrayList {
 
 	public static void main(String[] args) {
@@ -13,6 +19,7 @@ public class Java187_ArrayList {
 		v.add(10);
 		v.add(20);
 		v.add(30);
+		
 		System.out.println("=== 일반 for문 ===");
 		for (int i = 0; i < v.size(); i++)
 			System.out.println(v.get(i));
