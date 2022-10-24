@@ -17,11 +17,30 @@ public class Java190_LinkedList {
 		nStack.push(new String("jsp"));
 		nStack.push(new String("spring"));
 
-		System.out.println(nStack.pop());
-		System.out.println(nStack.pop());
-		System.out.println(nStack.pop());
-		System.out.println(nStack.pop()); //java.util.NoSuchElementException
+//		System.out.println(nStack.pop());
+//		System.out.println(nStack.pop());
+//		System.out.println(nStack.pop());
+//		System.out.println(nStack.pop()); //java.util.NoSuchElementException
+		
+		while(!nStack.isEmpty()) // 비어있지 않으면 출력
+			System.out.println(nStack.pop());
 
 	}// end main()
 
 }// end class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
