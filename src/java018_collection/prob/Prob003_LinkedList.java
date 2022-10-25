@@ -1,4 +1,5 @@
 package java018_collection.prob;
+
 import java.util.LinkedList;
 
 /*
@@ -10,30 +11,23 @@ import java.util.LinkedList;
 public class Prob003_LinkedList {
 
 	public static void main(String[] args) {
-		LinkedList<Sports> list=new LinkedList<Sports>();
-		
-		list.add(save("a001","헬스"));
-		list.add(save("b002","배구"));
-		list.add(save("c003","스케이트"));
-		
-		for(Sports sp : list)
-			System.out.printf("종목코드 :  %s, 종목명: %s\n",sp.getCode(),sp.getProgram());
-     
-	}//end main()
-	
-	public static Sports save(String code, String program){
-		//code, program매개변수에 저장된 값을 Sports클래스에 저장한후 
-		//리턴하는 프로그램을 구현하시오.
-		
-		return null;
-	}//end save()
+		LinkedList<Sports> list = new LinkedList<Sports>();
 
-}//end class
+		list.add(save("a001", "헬스"));
+		list.add(save("b002", "배구"));
+		list.add(save("c003", "스케이트"));
 
+		for (Sports sp : list)
+			System.out.printf("종목코드 :  %s, 종목명: %s\n", sp.getCode(), sp.getProgram());
 
+	}// end main()
 
+	public static Sports save(String code, String program) {
+		// code, program매개변수에 저장된 값을 Sports클래스에 저장한후
+		// 리턴하는 프로그램을 구현하시오.
+		//Sports sports = new Sports(code, program);
+		//return sports;
+		return new Sports(code, program);
+	}// end save()
 
-
-
-
-
+}// end class
