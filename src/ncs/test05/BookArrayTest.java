@@ -15,8 +15,8 @@ public class BookArrayTest {
 		for (Book book : bArray) {
 			// 배열에 있는 객체 정보를 모두 getter 로 출력 한다. – for 문을 이용 할 것
 			// 실행 결과와 같이 계산 출력
-			System.out.printf("%s, %s, %d, %s원, %.0f%% 할인\n", book.getTitle(), book.getAuthor(), book.getPrice(),
-					book.getPublisher(), book.getdiscountRace());
+			System.out.printf("%s, %s, %d원, %s, %.0f%% 할인\n", book.getTitle(), book.getAuthor(), book.getPrice(),
+					book.getPublisher(), book.getdiscountRace()*100);
 			System.out.printf("할인된 가격: %.0f원\n", book.getPrice() - (book.getPrice() * book.getdiscountRace()));
 
 		}

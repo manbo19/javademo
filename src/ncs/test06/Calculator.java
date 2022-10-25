@@ -2,7 +2,8 @@ package ncs.test06;
 
 public class Calculator {
 	private double getSum() {
+		int sum;
 		
-		return 0;
+		return sum+=num;
 	}
 }

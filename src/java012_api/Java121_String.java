@@ -10,6 +10,7 @@ public class Java121_String {
 		String stn = new String("java_jsp_spring");
 		System.out.println(process(stn.toCharArray()));
 		//toCharArray(): 문자열을 배열로 바꿔줌
+		//			     Converts this string to a new character array.
 
 	}// end main()
 
