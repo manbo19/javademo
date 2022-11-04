@@ -31,7 +31,7 @@ public class Test {
 				select(musicList);
 			} else if (num == 5) {
 				System.out.println("종료하겠습니다.");
-				break;
+				System.exit(0);
 			}
 		}
 	}

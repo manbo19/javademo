@@ -23,6 +23,10 @@ public class MemController {
 		return dao.updateMethod(hmap);
 	}//end updateProcess()
 	
+	public int deleteProcess(int age) {
+		return dao.deleteMethod(age);
+	}// end deleteProcess()
+	
 }// end class
 
 

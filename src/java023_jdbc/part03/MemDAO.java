@@ -165,4 +165,38 @@ public class MemDAO {
 		return chk;
 	}// end updateMethod()
 
+	public int deleteMethod(int age) {
+		int chk = -1;
+
+		try {
+			conn = init();
+			conn.setAutoCommit(false);
+
+			String sql = "DELETE FROM mem WHERE age>=?";
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, age);
+
+			chk = pstmt.executeUpdate();
+
+			conn.commit();
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+			try {
+				conn.rollback();
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+		} finally {
+			try {
+				conn.setAutoCommit(true);
+				exit();
+				
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return chk;
+
+	}// end deleteMethod()
+
 }// end class
