@@ -199,13 +199,12 @@ public class Test {
 		System.out.println("검색할 노래의 번호를 입력하세요.");
 		System.out.print("▶ ");
 
-			int number = Integer.parseInt(sc.nextLine());
-			for (int i = 0; i < musicList.size(); i++) {
-				if (number == i + 1) {
-					System.out.println(number + "번을 검색한 결과입니다.");
-					System.out.printf("%d. %s\n", i + 1, musicList.get(i));
-					System.out.println();							
-				
+		int number = Integer.parseInt(sc.nextLine());
+		for (int i = 0; i < musicList.size(); i++) {
+			if (number == i + 1) {
+				System.out.println(number + "번을 검색한 결과입니다.");
+				System.out.printf("%d. %s\n", i + 1, musicList.get(i));
+				System.out.println();
 
 			}
 		}
